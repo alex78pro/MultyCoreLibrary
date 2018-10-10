@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MultyCoreLibrary: a2865eb08c1cc6eb83e7956426a2c1a815e9c2f6
+  MultyCoreLibrary: aa3573ba1e35524b3d9c733ccfd6151935889a2f
 
 PODFILE CHECKSUM: 8a5d13a2dad2b01fdc6635aadb42df743a9874c6
 

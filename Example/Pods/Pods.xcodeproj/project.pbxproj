@@ -8,6 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		02497B7478C2221912EC7B2E5CD245DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		446E25BC216E153700B8E748 /* secp256k1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B3216E153700B8E748 /* secp256k1.a */; };
+		446E25BD216E153700B8E748 /* secp256k1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B3216E153700B8E748 /* secp256k1.a */; };
+		446E25BE216E153700B8E748 /* multy_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B4216E153700B8E748 /* multy_core.a */; };
+		446E25BF216E153700B8E748 /* multy_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B4216E153700B8E748 /* multy_core.a */; };
+		446E25C0216E153700B8E748 /* ccan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B5216E153700B8E748 /* ccan.a */; };
+		446E25C1216E153700B8E748 /* ccan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B5216E153700B8E748 /* ccan.a */; };
+		446E25C2216E153700B8E748 /* gtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B6216E153700B8E748 /* gtest.a */; };
+		446E25C3216E153700B8E748 /* gtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B6216E153700B8E748 /* gtest.a */; };
+		446E25C6216E153700B8E748 /* keccak-tiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B8216E153700B8E748 /* keccak-tiny.a */; };
+		446E25C7216E153700B8E748 /* keccak-tiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B8216E153700B8E748 /* keccak-tiny.a */; };
+		446E25C8216E153700B8E748 /* wally-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B9216E153700B8E748 /* wally-core.a */; };
+		446E25C9216E153700B8E748 /* wally-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B9216E153700B8E748 /* wally-core.a */; };
+		446E25CA216E153700B8E748 /* mini-gmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25BA216E153700B8E748 /* mini-gmp.a */; };
+		446E25CB216E153700B8E748 /* mini-gmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25BA216E153700B8E748 /* mini-gmp.a */; };
+		446E25CC216E153700B8E748 /* multy_test.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25BB216E153700B8E748 /* multy_test.dylib */; };
+		446E25CD216E153700B8E748 /* multy_test.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25BB216E153700B8E748 /* multy_test.dylib */; };
+		446E261C216E15CB00B8E748 /* bip44_coin_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2609216E15CB00B8E748 /* bip44_coin_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E261D216E15CB00B8E748 /* bip44_coin_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2609216E15CB00B8E748 /* bip44_coin_types.h */; };
+		446E261E216E15CB00B8E748 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260A216E15CB00B8E748 /* error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E261F216E15CB00B8E748 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260A216E15CB00B8E748 /* error.h */; };
+		446E2620216E15CB00B8E748 /* ethereum.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260B216E15CB00B8E748 /* ethereum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2621216E15CB00B8E748 /* ethereum.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260B216E15CB00B8E748 /* ethereum.h */; };
+		446E2622216E15CB00B8E748 /* account.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260C216E15CB00B8E748 /* account.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2623216E15CB00B8E748 /* account.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260C216E15CB00B8E748 /* account.h */; };
+		446E2624216E15CB00B8E748 /* blockchain.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260D216E15CB00B8E748 /* blockchain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2625216E15CB00B8E748 /* blockchain.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260D216E15CB00B8E748 /* blockchain.h */; };
+		446E2626216E15CB00B8E748 /* mnemonic.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260E216E15CB00B8E748 /* mnemonic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2627216E15CB00B8E748 /* mnemonic.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260E216E15CB00B8E748 /* mnemonic.h */; };
+		446E2628216E15CB00B8E748 /* key.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260F216E15CB00B8E748 /* key.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2629216E15CB00B8E748 /* key.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E260F216E15CB00B8E748 /* key.h */; };
+		446E262A216E15CB00B8E748 /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2610216E15CB00B8E748 /* sha3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E262B216E15CB00B8E748 /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2610216E15CB00B8E748 /* sha3.h */; };
+		446E262C216E15CB00B8E748 /* transaction_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2611216E15CB00B8E748 /* transaction_builder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E262D216E15CB00B8E748 /* transaction_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2611216E15CB00B8E748 /* transaction_builder.h */; };
+		446E262E216E15CB00B8E748 /* bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2612216E15CB00B8E748 /* bitcoin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E262F216E15CB00B8E748 /* bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2612216E15CB00B8E748 /* bitcoin.h */; };
+		446E2630216E15CB00B8E748 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2613216E15CB00B8E748 /* api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2631216E15CB00B8E748 /* api.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2613216E15CB00B8E748 /* api.h */; };
+		446E2632216E15CB00B8E748 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2614216E15CB00B8E748 /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2633216E15CB00B8E748 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2614216E15CB00B8E748 /* common.h */; };
+		446E2634216E15CB00B8E748 /* big_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2615216E15CB00B8E748 /* big_int.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2635216E15CB00B8E748 /* big_int.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2615216E15CB00B8E748 /* big_int.h */; };
+		446E2636216E15CB00B8E748 /* binary_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2616216E15CB00B8E748 /* binary_data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2637216E15CB00B8E748 /* binary_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2616216E15CB00B8E748 /* binary_data.h */; };
+		446E2638216E15CB00B8E748 /* golos.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2617216E15CB00B8E748 /* golos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2639216E15CB00B8E748 /* golos.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2617216E15CB00B8E748 /* golos.h */; };
+		446E263A216E15CB00B8E748 /* EOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2618216E15CB00B8E748 /* EOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E263B216E15CB00B8E748 /* EOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2618216E15CB00B8E748 /* EOS.h */; };
+		446E263C216E15CB00B8E748 /* transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2619216E15CB00B8E748 /* transaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E263D216E15CB00B8E748 /* transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E2619216E15CB00B8E748 /* transaction.h */; };
+		446E263E216E15CB00B8E748 /* properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E261A216E15CB00B8E748 /* properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E263F216E15CB00B8E748 /* properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E261A216E15CB00B8E748 /* properties.h */; };
+		446E2640216E15CB00B8E748 /* run_tests.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E261B216E15CB00B8E748 /* run_tests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446E2641216E15CB00B8E748 /* run_tests.h in Headers */ = {isa = PBXBuildFile; fileRef = 446E261B216E15CB00B8E748 /* run_tests.h */; };
+		446E2654216E189400B8E748 /* secp256k1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B3216E153700B8E748 /* secp256k1.a */; };
+		446E2655216E189400B8E748 /* multy_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B4216E153700B8E748 /* multy_core.a */; };
+		446E2656216E189400B8E748 /* ccan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B5216E153700B8E748 /* ccan.a */; };
+		446E2657216E189400B8E748 /* gtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B6216E153700B8E748 /* gtest.a */; };
+		446E2659216E18A000B8E748 /* keccak-tiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B8216E153700B8E748 /* keccak-tiny.a */; };
+		446E265A216E18A000B8E748 /* wally-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25B9216E153700B8E748 /* wally-core.a */; };
+		446E265B216E18A000B8E748 /* mini-gmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25BA216E153700B8E748 /* mini-gmp.a */; };
+		446E265C216E18A000B8E748 /* multy_test.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25BB216E153700B8E748 /* multy_test.dylib */; };
 		4E489DEBB55E0E3884A8FE28B24C7D7E /* Pods-MultyCoreLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B1EFA12C8F4ACB4D73B3ABD183E52D /* Pods-MultyCoreLibrary_Tests-dummy.m */; };
 		6744687255EB8F90965310272555B566 /* Pods-MultyCoreLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB5F4B6FADA9476487288DE9593CD49 /* Pods-MultyCoreLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BF2B1C66DF1B3C68CDC98E0F17697E0 /* MultyCoreLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2D0328A43FE5FDF95B1B90A253C205 /* MultyCoreLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,11 +99,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EDFB00A5D42939C8B6295B125AD09FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1933EA7BCE23F64CDBC8BFFFE5F10B44 /* Pods_MultyCoreLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultyCoreLibrary_Example.framework; path = "Pods-MultyCoreLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDFB00A5D42939C8B6295B125AD09FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1933EA7BCE23F64CDBC8BFFFE5F10B44 /* Pods_MultyCoreLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultyCoreLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BAD898F356FE2E9D955028245ED7D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D17D87D9CBD2E2DD0A218518EEC0BC6 /* Pods-MultyCoreLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultyCoreLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		3EB5F4B6FADA9476487288DE9593CD49 /* Pods-MultyCoreLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultyCoreLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		446E25B3216E153700B8E748 /* secp256k1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = secp256k1.a; sourceTree = "<group>"; };
+		446E25B4216E153700B8E748 /* multy_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = multy_core.a; sourceTree = "<group>"; };
+		446E25B5216E153700B8E748 /* ccan.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = ccan.a; sourceTree = "<group>"; };
+		446E25B6216E153700B8E748 /* gtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = gtest.a; sourceTree = "<group>"; };
+		446E25B8216E153700B8E748 /* keccak-tiny.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "keccak-tiny.a"; sourceTree = "<group>"; };
+		446E25B9216E153700B8E748 /* wally-core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "wally-core.a"; sourceTree = "<group>"; };
+		446E25BA216E153700B8E748 /* mini-gmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "mini-gmp.a"; sourceTree = "<group>"; };
+		446E25BB216E153700B8E748 /* multy_test.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = multy_test.dylib; sourceTree = "<group>"; };
+		446E2609216E15CB00B8E748 /* bip44_coin_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip44_coin_types.h; sourceTree = "<group>"; };
+		446E260A216E15CB00B8E748 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		446E260B216E15CB00B8E748 /* ethereum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ethereum.h; sourceTree = "<group>"; };
+		446E260C216E15CB00B8E748 /* account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = account.h; sourceTree = "<group>"; };
+		446E260D216E15CB00B8E748 /* blockchain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockchain.h; sourceTree = "<group>"; };
+		446E260E216E15CB00B8E748 /* mnemonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mnemonic.h; sourceTree = "<group>"; };
+		446E260F216E15CB00B8E748 /* key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		446E2610216E15CB00B8E748 /* sha3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha3.h; sourceTree = "<group>"; };
+		446E2611216E15CB00B8E748 /* transaction_builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transaction_builder.h; sourceTree = "<group>"; };
+		446E2612216E15CB00B8E748 /* bitcoin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitcoin.h; sourceTree = "<group>"; };
+		446E2613216E15CB00B8E748 /* api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		446E2614216E15CB00B8E748 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		446E2615216E15CB00B8E748 /* big_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = big_int.h; sourceTree = "<group>"; };
+		446E2616216E15CB00B8E748 /* binary_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binary_data.h; sourceTree = "<group>"; };
+		446E2617216E15CB00B8E748 /* golos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = golos.h; sourceTree = "<group>"; };
+		446E2618216E15CB00B8E748 /* EOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOS.h; sourceTree = "<group>"; };
+		446E2619216E15CB00B8E748 /* transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transaction.h; sourceTree = "<group>"; };
+		446E261A216E15CB00B8E748 /* properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = properties.h; sourceTree = "<group>"; };
+		446E261B216E15CB00B8E748 /* run_tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = run_tests.h; sourceTree = "<group>"; };
 		490AEF35811197C46B6AEF2E6239BEAB /* Pods-MultyCoreLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultyCoreLibrary_Example-resources.sh"; sourceTree = "<group>"; };
 		4968DC0B5136E3C7B6569024013E6DBD /* MultyCoreLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MultyCoreLibrary.modulemap; sourceTree = "<group>"; };
 		4D7B0F2A771BD9D8D2E12698DB9E66B5 /* Pods-MultyCoreLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultyCoreLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -49,22 +138,22 @@
 		649FF9032D644E3095E84CD845EB05EC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MultyCoreLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66D18C3DC4E48786277913EEE0516A82 /* Pods-MultyCoreLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultyCoreLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6EB0618590D4D0205692E6FDD78AC44B /* MultyCoreLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MultyCoreLibrary.framework; path = MultyCoreLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB0618590D4D0205692E6FDD78AC44B /* MultyCoreLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultyCoreLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87065030F4A43A1E17210646F7F2B70F /* Pods-MultyCoreLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultyCoreLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		89FFDC70FF2A0FEA7F03C865F0D0857B /* Pods-MultyCoreLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultyCoreLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D2D0328A43FE5FDF95B1B90A253C205 /* MultyCoreLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MultyCoreLibrary-umbrella.h"; sourceTree = "<group>"; };
 		90B4232B21AEC7FC834CFD61087AF39B /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultyCoreLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		914BAB48EDEB99EEB789803DD72DA9FA /* MultyCoreLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MultyCoreLibrary-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9487C9F6662DCE39105C95D385F23C84 /* Pods-MultyCoreLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MultyCoreLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		9633493583A89859EC544CD5FA056977 /* MultyCoreLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MultyCoreLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9633493583A89859EC544CD5FA056977 /* MultyCoreLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MultyCoreLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		996E6DC10888A674EC56BEAA127CE1EB /* Pods-MultyCoreLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultyCoreLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0CDC27CD65BFDA63F95B1DA4A47558B /* Pods-MultyCoreLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultyCoreLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8D7C4035A4EDE5EF2F1726EFBB14D0A /* Pods-MultyCoreLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultyCoreLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B1EFA12C8F4ACB4D73B3ABD183E52D /* Pods-MultyCoreLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultyCoreLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		D37118C8343CF87A6D406F8E5E103046 /* Pods-MultyCoreLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultyCoreLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8F4500F4A2901C32E5424C24E1E4D92 /* Pods_MultyCoreLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultyCoreLibrary_Tests.framework; path = "Pods-MultyCoreLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6982D2D3EE1B5776B8B99DC323ED7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D8F4500F4A2901C32E5424C24E1E4D92 /* Pods_MultyCoreLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultyCoreLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6982D2D3EE1B5776B8B99DC323ED7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DCA838A438F0CC3F9D2FC095B8B41684 /* Pods-MultyCoreLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultyCoreLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DCF549296FE8E6D851EE75672CD98C9E /* Pods-MultyCoreLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultyCoreLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E128FDB57371CD4045BEBF96D025E562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +168,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446E2659216E18A000B8E748 /* keccak-tiny.a in Frameworks */,
+				446E2656216E189400B8E748 /* ccan.a in Frameworks */,
+				446E265B216E18A000B8E748 /* mini-gmp.a in Frameworks */,
+				446E2657216E189400B8E748 /* gtest.a in Frameworks */,
+				446E2654216E189400B8E748 /* secp256k1.a in Frameworks */,
+				446E2655216E189400B8E748 /* multy_core.a in Frameworks */,
+				446E265A216E18A000B8E748 /* wally-core.a in Frameworks */,
+				446E265C216E18A000B8E748 /* multy_test.dylib in Frameworks */,
 				02497B7478C2221912EC7B2E5CD245DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +184,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446E25C7216E153700B8E748 /* keccak-tiny.a in Frameworks */,
+				446E25C1216E153700B8E748 /* ccan.a in Frameworks */,
+				446E25CB216E153700B8E748 /* mini-gmp.a in Frameworks */,
+				446E25C3216E153700B8E748 /* gtest.a in Frameworks */,
+				446E25BD216E153700B8E748 /* secp256k1.a in Frameworks */,
+				446E25BF216E153700B8E748 /* multy_core.a in Frameworks */,
+				446E25C9216E153700B8E748 /* wally-core.a in Frameworks */,
+				446E25CD216E153700B8E748 /* multy_test.dylib in Frameworks */,
 				EBB4AC840C55C936A76D598447D7F741 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +200,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446E25C6216E153700B8E748 /* keccak-tiny.a in Frameworks */,
+				446E25C0216E153700B8E748 /* ccan.a in Frameworks */,
+				446E25CA216E153700B8E748 /* mini-gmp.a in Frameworks */,
+				446E25C2216E153700B8E748 /* gtest.a in Frameworks */,
+				446E25BC216E153700B8E748 /* secp256k1.a in Frameworks */,
+				446E25BE216E153700B8E748 /* multy_core.a in Frameworks */,
+				446E25C8216E153700B8E748 /* wally-core.a in Frameworks */,
+				446E25CC216E153700B8E748 /* multy_test.dylib in Frameworks */,
 				C540CAE80A22146710C71C70E93D4059 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,9 +246,54 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		446E25B2216E153700B8E748 /* Core Libs */ = {
+			isa = PBXGroup;
+			children = (
+				446E25B3216E153700B8E748 /* secp256k1.a */,
+				446E25B4216E153700B8E748 /* multy_core.a */,
+				446E25B5216E153700B8E748 /* ccan.a */,
+				446E25B6216E153700B8E748 /* gtest.a */,
+				446E25B8216E153700B8E748 /* keccak-tiny.a */,
+				446E25B9216E153700B8E748 /* wally-core.a */,
+				446E25BA216E153700B8E748 /* mini-gmp.a */,
+				446E25BB216E153700B8E748 /* multy_test.dylib */,
+			);
+			name = "Core Libs";
+			path = "MultyCoreLibrary/Classes/Core Libs";
+			sourceTree = "<group>";
+		};
+		446E2608216E15CB00B8E748 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				446E260C216E15CB00B8E748 /* account.h */,
+				446E2613216E15CB00B8E748 /* api.h */,
+				446E2615216E15CB00B8E748 /* big_int.h */,
+				446E2616216E15CB00B8E748 /* binary_data.h */,
+				446E2609216E15CB00B8E748 /* bip44_coin_types.h */,
+				446E2612216E15CB00B8E748 /* bitcoin.h */,
+				446E260D216E15CB00B8E748 /* blockchain.h */,
+				446E2614216E15CB00B8E748 /* common.h */,
+				446E2618216E15CB00B8E748 /* EOS.h */,
+				446E260A216E15CB00B8E748 /* error.h */,
+				446E260B216E15CB00B8E748 /* ethereum.h */,
+				446E2617216E15CB00B8E748 /* golos.h */,
+				446E260F216E15CB00B8E748 /* key.h */,
+				446E260E216E15CB00B8E748 /* mnemonic.h */,
+				446E261A216E15CB00B8E748 /* properties.h */,
+				446E261B216E15CB00B8E748 /* run_tests.h */,
+				446E2610216E15CB00B8E748 /* sha3.h */,
+				446E2611216E15CB00B8E748 /* transaction_builder.h */,
+				446E2619216E15CB00B8E748 /* transaction.h */,
+			);
+			name = Headers;
+			path = MultyCoreLibrary/Classes/Headers;
+			sourceTree = "<group>";
+		};
 		5FACAA12A01EEF114F0E24CA4B6E1EE0 /* MultyCoreLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				446E2608216E15CB00B8E748 /* Headers */,
+				446E25B2216E153700B8E748 /* Core Libs */,
 				649FF9032D644E3095E84CD845EB05EC /* ReplaceMe.swift */,
 				C9240D5B137248587D1ABCE3911912A2 /* Pod */,
 				3581566E077AD596970C866893EBEEEA /* Support Files */,
@@ -242,7 +400,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446E263F216E15CB00B8E748 /* properties.h in Headers */,
+				446E263B216E15CB00B8E748 /* EOS.h in Headers */,
+				446E2625216E15CB00B8E748 /* blockchain.h in Headers */,
+				446E2639216E15CB00B8E748 /* golos.h in Headers */,
+				446E2635216E15CB00B8E748 /* big_int.h in Headers */,
+				446E2627216E15CB00B8E748 /* mnemonic.h in Headers */,
+				446E261F216E15CB00B8E748 /* error.h in Headers */,
+				446E2623216E15CB00B8E748 /* account.h in Headers */,
+				446E2641216E15CB00B8E748 /* run_tests.h in Headers */,
+				446E263D216E15CB00B8E748 /* transaction.h in Headers */,
+				446E262F216E15CB00B8E748 /* bitcoin.h in Headers */,
+				446E2633216E15CB00B8E748 /* common.h in Headers */,
+				446E2629216E15CB00B8E748 /* key.h in Headers */,
+				446E262D216E15CB00B8E748 /* transaction_builder.h in Headers */,
+				446E262B216E15CB00B8E748 /* sha3.h in Headers */,
 				D848B145F735F47AA86FE3349B799FA0 /* Pods-MultyCoreLibrary_Tests-umbrella.h in Headers */,
+				446E2631216E15CB00B8E748 /* api.h in Headers */,
+				446E261D216E15CB00B8E748 /* bip44_coin_types.h in Headers */,
+				446E2621216E15CB00B8E748 /* ethereum.h in Headers */,
+				446E2637216E15CB00B8E748 /* binary_data.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +427,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446E263E216E15CB00B8E748 /* properties.h in Headers */,
+				446E263A216E15CB00B8E748 /* EOS.h in Headers */,
+				446E2624216E15CB00B8E748 /* blockchain.h in Headers */,
+				446E2638216E15CB00B8E748 /* golos.h in Headers */,
+				446E2634216E15CB00B8E748 /* big_int.h in Headers */,
+				446E2626216E15CB00B8E748 /* mnemonic.h in Headers */,
+				446E261E216E15CB00B8E748 /* error.h in Headers */,
+				446E2622216E15CB00B8E748 /* account.h in Headers */,
+				446E2640216E15CB00B8E748 /* run_tests.h in Headers */,
+				446E263C216E15CB00B8E748 /* transaction.h in Headers */,
+				446E262E216E15CB00B8E748 /* bitcoin.h in Headers */,
+				446E2632216E15CB00B8E748 /* common.h in Headers */,
+				446E2628216E15CB00B8E748 /* key.h in Headers */,
+				446E262C216E15CB00B8E748 /* transaction_builder.h in Headers */,
+				446E262A216E15CB00B8E748 /* sha3.h in Headers */,
 				6BF2B1C66DF1B3C68CDC98E0F17697E0 /* MultyCoreLibrary-umbrella.h in Headers */,
+				446E2630216E15CB00B8E748 /* api.h in Headers */,
+				446E261C216E15CB00B8E748 /* bip44_coin_types.h in Headers */,
+				446E2620216E15CB00B8E748 /* ethereum.h in Headers */,
+				446E2636216E15CB00B8E748 /* binary_data.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +513,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					B7E807FFAB78BBB02A255F35AB4F1DC7 = {
+						DevelopmentTeam = 7SW78L9W6E;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -450,6 +652,42 @@
 			};
 			name = Debug;
 		};
+		46C550DE980DF11024B1F2CB7994E925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47ED5019A083A2F2B56481E3233DBCA /* MultyCoreLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "Target Support Files/MultyCoreLibrary/MultyCoreLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MultyCoreLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MultyCoreLibrary/MultyCoreLibrary.modulemap";
+				PRODUCT_MODULE_NAME = MultyCoreLibrary;
+				PRODUCT_NAME = MultyCoreLibrary;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		806A196BACF686A32BE60E2C7B29AFE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89FFDC70FF2A0FEA7F03C865F0D0857B /* Pods-MultyCoreLibrary_Example.release.xcconfig */;
@@ -538,45 +776,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		A47D205B045B207579F3F778A118E781 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F47ED5019A083A2F2B56481E3233DBCA /* MultyCoreLibrary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MultyCoreLibrary/MultyCoreLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MultyCoreLibrary/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MultyCoreLibrary/MultyCoreLibrary.modulemap";
-				PRODUCT_MODULE_NAME = MultyCoreLibrary;
-				PRODUCT_NAME = MultyCoreLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -630,10 +836,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -672,19 +879,22 @@
 			};
 			name = Release;
 		};
-		BE975794CA1A1B6966317CF4ABC27571 /* Release */ = {
+		BA758251FB2569F56523A90A27A09447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F47ED5019A083A2F2B56481E3233DBCA /* MultyCoreLibrary.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "Target Support Files/MultyCoreLibrary/MultyCoreLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MultyCoreLibrary/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -693,11 +903,12 @@
 				MODULEMAP_FILE = "Target Support Files/MultyCoreLibrary/MultyCoreLibrary.modulemap";
 				PRODUCT_MODULE_NAME = MultyCoreLibrary;
 				PRODUCT_NAME = MultyCoreLibrary;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -738,8 +949,8 @@
 		ED665A8E7E5CB998FFEDC9A94F31AEA1 /* Build configuration list for PBXNativeTarget "MultyCoreLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A47D205B045B207579F3F778A118E781 /* Debug */,
-				BE975794CA1A1B6966317CF4ABC27571 /* Release */,
+				46C550DE980DF11024B1F2CB7994E925 /* Debug */,
+				BA758251FB2569F56523A90A27A09447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

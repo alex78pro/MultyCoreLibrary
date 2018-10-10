@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AC1DC7119AFB007D7BA050E /* Pods_MultyCoreLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A035D7C2896056D82B104A9 /* Pods_MultyCoreLibrary_Tests.framework */; };
+		446E25AE216E137900B8E748 /* Pods_MultyCoreLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25AD216E137900B8E748 /* Pods_MultyCoreLibrary_Example.framework */; };
+		446E25B0216E139B00B8E748 /* Pods_MultyCoreLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25AF216E139B00B8E748 /* Pods_MultyCoreLibrary_Tests.framework */; };
+		446E25B1216E13ED00B8E748 /* Pods_MultyCoreLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E25AF216E139B00B8E748 /* Pods_MultyCoreLibrary_Tests.framework */; };
+		446E264C216E170100B8E748 /* multy_test.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E2643216E170100B8E748 /* multy_test.dylib */; };
+		446E264D216E170100B8E748 /* ccan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E2644216E170100B8E748 /* ccan.a */; };
+		446E264E216E170100B8E748 /* mini-gmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E2645216E170100B8E748 /* mini-gmp.a */; };
+		446E264F216E170100B8E748 /* gtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E2646216E170100B8E748 /* gtest.a */; };
+		446E2650216E170100B8E748 /* multy_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E2647216E170100B8E748 /* multy_core.a */; };
+		446E2651216E170100B8E748 /* secp256k1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E2648216E170100B8E748 /* secp256k1.a */; };
+		446E2652216E170100B8E748 /* wally-core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E2649216E170100B8E748 /* wally-core.a */; };
+		446E265D216E1B1600B8E748 /* keccak-tiny.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E264A216E170100B8E748 /* keccak-tiny.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E79585B7E6D8361A3500AB53 /* Pods_MultyCoreLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A580350B049E2FD23233A9F4 /* Pods_MultyCoreLibrary_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		446E25AD216E137900B8E748 /* Pods_MultyCoreLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MultyCoreLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446E25AF216E139B00B8E748 /* Pods_MultyCoreLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MultyCoreLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446E2642216E170000B8E748 /* Pods_Multy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Multy.framework; path = "../MultyCoreLibrary/Classes/Core Libs/Pods_Multy.framework"; sourceTree = "<group>"; };
+		446E2643216E170100B8E748 /* multy_test.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = multy_test.dylib; path = "../MultyCoreLibrary/Classes/Core Libs/multy_test.dylib"; sourceTree = "<group>"; };
+		446E2644216E170100B8E748 /* ccan.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ccan.a; path = "../MultyCoreLibrary/Classes/Core Libs/ccan.a"; sourceTree = "<group>"; };
+		446E2645216E170100B8E748 /* mini-gmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "mini-gmp.a"; path = "../MultyCoreLibrary/Classes/Core Libs/mini-gmp.a"; sourceTree = "<group>"; };
+		446E2646216E170100B8E748 /* gtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = gtest.a; path = "../MultyCoreLibrary/Classes/Core Libs/gtest.a"; sourceTree = "<group>"; };
+		446E2647216E170100B8E748 /* multy_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = multy_core.a; path = "../MultyCoreLibrary/Classes/Core Libs/multy_core.a"; sourceTree = "<group>"; };
+		446E2648216E170100B8E748 /* secp256k1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = secp256k1.a; path = "../MultyCoreLibrary/Classes/Core Libs/secp256k1.a"; sourceTree = "<group>"; };
+		446E2649216E170100B8E748 /* wally-core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "wally-core.a"; path = "../MultyCoreLibrary/Classes/Core Libs/wally-core.a"; sourceTree = "<group>"; };
+		446E264A216E170100B8E748 /* keccak-tiny.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "keccak-tiny.a"; path = "../MultyCoreLibrary/Classes/Core Libs/keccak-tiny.a"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MultyCoreLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultyCoreLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,14 +58,12 @@
 		607FACE51AFB9204008FA782 /* MultyCoreLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultyCoreLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		75B0246E8AEAF44AF6DBF458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		75B0246E8AEAF44AF6DBF458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		797E350462DA9DEEB2348B93 /* Pods-MultyCoreLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Example/Pods-MultyCoreLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8C2BF855FB86D0A29C503A18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9A035D7C2896056D82B104A9 /* Pods_MultyCoreLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultyCoreLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2BF855FB86D0A29C503A18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9F4BF40596A44FEF776B1BD6 /* Pods-MultyCoreLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Tests/Pods-MultyCoreLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A580350B049E2FD23233A9F4 /* Pods_MultyCoreLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultyCoreLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08A26B05F651A9B4FB82E20 /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Tests/Pods-MultyCoreLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B264C88538DB637048040973 /* MultyCoreLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MultyCoreLibrary.podspec; path = ../MultyCoreLibrary.podspec; sourceTree = "<group>"; };
+		B264C88538DB637048040973 /* MultyCoreLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MultyCoreLibrary.podspec; path = ../MultyCoreLibrary.podspec; sourceTree = "<group>"; };
 		B35F9BE82AF639AB719E83DD /* Pods-MultyCoreLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Example/Pods-MultyCoreLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +72,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79585B7E6D8361A3500AB53 /* Pods_MultyCoreLibrary_Example.framework in Frameworks */,
+				446E265D216E1B1600B8E748 /* keccak-tiny.a in Frameworks */,
+				446E264C216E170100B8E748 /* multy_test.dylib in Frameworks */,
+				446E264D216E170100B8E748 /* ccan.a in Frameworks */,
+				446E264E216E170100B8E748 /* mini-gmp.a in Frameworks */,
+				446E264F216E170100B8E748 /* gtest.a in Frameworks */,
+				446E2650216E170100B8E748 /* multy_core.a in Frameworks */,
+				446E2651216E170100B8E748 /* secp256k1.a in Frameworks */,
+				446E2652216E170100B8E748 /* wally-core.a in Frameworks */,
+				446E25B1216E13ED00B8E748 /* Pods_MultyCoreLibrary_Tests.framework in Frameworks */,
+				446E25AE216E137900B8E748 /* Pods_MultyCoreLibrary_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC1DC7119AFB007D7BA050E /* Pods_MultyCoreLibrary_Tests.framework in Frameworks */,
+				446E25B0216E139B00B8E748 /* Pods_MultyCoreLibrary_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +180,17 @@
 		BD0D570472242F63C0185A32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A580350B049E2FD23233A9F4 /* Pods_MultyCoreLibrary_Example.framework */,
-				9A035D7C2896056D82B104A9 /* Pods_MultyCoreLibrary_Tests.framework */,
+				446E2644216E170100B8E748 /* ccan.a */,
+				446E2646216E170100B8E748 /* gtest.a */,
+				446E264A216E170100B8E748 /* keccak-tiny.a */,
+				446E2649216E170100B8E748 /* wally-core.a */,
+				446E2645216E170100B8E748 /* mini-gmp.a */,
+				446E2647216E170100B8E748 /* multy_core.a */,
+				446E2643216E170100B8E748 /* multy_test.dylib */,
+				446E2648216E170100B8E748 /* secp256k1.a */,
+				446E2642216E170000B8E748 /* Pods_Multy.framework */,
+				446E25AF216E139B00B8E748 /* Pods_MultyCoreLibrary_Tests.framework */,
+				446E25AD216E137900B8E748 /* Pods_MultyCoreLibrary_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,15 +243,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7SW78L9W6E;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7SW78L9W6E;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -377,12 +415,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -395,6 +435,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -430,12 +471,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -448,6 +491,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -469,6 +513,8 @@
 			baseConfigurationReference = B35F9BE82AF639AB719E83DD /* Pods-MultyCoreLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MultyCoreLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -484,6 +530,8 @@
 			baseConfigurationReference = 797E350462DA9DEEB2348B93 /* Pods-MultyCoreLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = MultyCoreLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -498,16 +546,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B08A26B05F651A9B4FB82E20 /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -520,12 +567,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F4BF40596A44FEF776B1BD6 /* Pods-MultyCoreLibrary_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				DEVELOPMENT_TEAM = 7SW78L9W6E;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
