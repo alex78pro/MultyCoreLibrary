@@ -63,7 +63,7 @@
 		8C2BF855FB86D0A29C503A18 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9F4BF40596A44FEF776B1BD6 /* Pods-MultyCoreLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Tests/Pods-MultyCoreLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B08A26B05F651A9B4FB82E20 /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Tests/Pods-MultyCoreLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B264C88538DB637048040973 /* MultyCoreLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MultyCoreLibrary.podspec; path = ../MultyCoreLibrary.podspec; sourceTree = "<group>"; };
+		B264C88538DB637048040973 /* MultyCoreLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MultyCoreLibrary.podspec; path = ../MultyCoreLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B35F9BE82AF639AB719E83DD /* Pods-MultyCoreLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Example/Pods-MultyCoreLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

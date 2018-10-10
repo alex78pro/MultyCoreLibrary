@@ -14,7 +14,7 @@ This is open-source library for adapting Multy-Core API with Swift.
   s.source           = { :git => 'https://github.com/alex78pro/MultyCoreLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'MultyCoreLibrary/Classes/**/*'
   s.swift_version = '4.1'
