@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MultyCoreLibrary_Example' do
+  pod 'MultyCoreLibrary', :path => '../'
+
+  target 'MultyCoreLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
