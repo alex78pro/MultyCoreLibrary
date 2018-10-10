@@ -1,0 +1,6 @@
+framework module MultyCoreLibrary {
+  umbrella header "MultyCoreLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

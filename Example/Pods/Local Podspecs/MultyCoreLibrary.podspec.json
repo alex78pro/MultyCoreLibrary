@@ -1,0 +1,22 @@
+{
+  "name": "MultyCoreLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MultyCoreLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/alex78pro/MultyCoreLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "alex78pro": "alex78pro@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/alex78pro/MultyCoreLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MultyCoreLibrary/Classes/**/*"
+}
