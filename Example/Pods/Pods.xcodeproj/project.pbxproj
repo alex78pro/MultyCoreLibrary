@@ -670,7 +670,6 @@
 				ARCHS = (
 					armv7s,
 					armv7,
-					arm64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -690,6 +689,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MultyCoreLibrary/MultyCoreLibrary.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_MODULE_NAME = MultyCoreLibrary;
 				PRODUCT_NAME = MultyCoreLibrary;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -914,7 +914,6 @@
 				ARCHS = (
 					armv7s,
 					armv7,
-					arm64,
 				);
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
