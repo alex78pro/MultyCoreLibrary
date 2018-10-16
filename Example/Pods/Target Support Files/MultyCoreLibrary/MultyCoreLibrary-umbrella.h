@@ -10,10 +10,7 @@
 #endif
 #endif
 
-#import <Foundation/Foundation.h>
-
-//#import "GGLInstanceID/GGLInstanceIDHeaders.h"
-
+#import "Pods-Multy-umbrella.h"
 #import "account.h"
 #import "api.h"
 #import "big_int.h"
@@ -22,8 +19,8 @@
 #import "bitcoin.h"
 #import "blockchain.h"
 #import "common.h"
-#import "error.h"
 #import "EOS.h"
+#import "error.h"
 #import "ethereum.h"
 #import "golos.h"
 #import "key.h"
@@ -31,8 +28,8 @@
 #import "properties.h"
 #import "run_tests.h"
 #import "sha3.h"
-#import "transaction_builder.h"
 #import "transaction.h"
+#import "transaction_builder.h"
 
 FOUNDATION_EXPORT double MultyCoreLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char MultyCoreLibraryVersionString[];
