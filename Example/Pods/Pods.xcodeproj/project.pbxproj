@@ -11,7 +11,7 @@
 		0CA582EC3D390D2A502AD7FDAB95BC3C /* wally-core.a in Sources */ = {isa = PBXBuildFile; fileRef = 197362E8CF19AFC2C52863C9F8B4D830 /* wally-core.a */; };
 		16C421044123805F5C75A043C22D653B /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BC3D92D8F0131E90CD154CF42EECD0 /* error.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19BDDFF3E19187CB4FFAF18759166E22 /* big_int.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDC9ABA549AE3372B9300A2AAEE6E0B /* big_int.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23296F7B1222FA6A233263230F30EFCD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C71027072EC79ECD71692380E0114 /* ReplaceMe.swift */; };
+		23296F7B1222FA6A233263230F30EFCD /* CoreLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85C71027072EC79ECD71692380E0114 /* CoreLibrary.swift */; };
 		245811C9D754E5EBD534975FC6915654 /* bip44_coin_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 38962503A49F736009ABE3A663BDD456 /* bip44_coin_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25DB642A2172395BF18B39A4039C86B8 /* properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B5BCAAAD43B33F34C4FDE608F32A3BD /* properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38AA5AFEFCA6CCA1D07A68FD9BEC0204 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E30905D75CD4798665366D732CC4FDD0 /* Info.plist */; };
@@ -114,7 +114,7 @@
 		C0B1EFA12C8F4ACB4D73B3ABD183E52D /* Pods-MultyCoreLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultyCoreLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		C505F3551FEB507C55A5006AA3A8754E /* Pods-Multy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Multy-umbrella.h"; sourceTree = "<group>"; };
 		D37118C8343CF87A6D406F8E5E103046 /* Pods-MultyCoreLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultyCoreLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D85C71027072EC79ECD71692380E0114 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MultyCoreLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D85C71027072EC79ECD71692380E0114 /* CoreLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreLibrary.swift; path = MultyCoreLibrary/Classes/CoreLibrary.swift; sourceTree = "<group>"; };
 		D8F4500F4A2901C32E5424C24E1E4D92 /* Pods_MultyCoreLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultyCoreLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFE1D7FFEDC1AB6E13688591BCF9626 /* mnemonic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mnemonic.h; sourceTree = "<group>"; };
 		DCA838A438F0CC3F9D2FC095B8B41684 /* Pods-MultyCoreLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultyCoreLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		5E7438927AA4554BEC3CB901EED3A06E /* MultyCoreLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				D85C71027072EC79ECD71692380E0114 /* ReplaceMe.swift */,
+				D85C71027072EC79ECD71692380E0114 /* CoreLibrary.swift */,
 				5313EF12D627BFA3394D5290998291F7 /* Core Libs */,
 				BD8C77120FB7FB8E71F81062C9BC0760 /* Headers */,
 				EA25CCB213FD9E822949720F47D2FEDC /* Pod */,
@@ -520,7 +520,7 @@
 				B827776191C2D5E94E33E8DE20A6B3CC /* multy_test.dylib in Sources */,
 				F5390352821367467E52D8D6D3AAE472 /* MultyCoreLibrary-dummy.m in Sources */,
 				9B30A6F63F8C098A7B19623252E8F352 /* Pods_Multy in Sources */,
-				23296F7B1222FA6A233263230F30EFCD /* ReplaceMe.swift in Sources */,
+				23296F7B1222FA6A233263230F30EFCD /* CoreLibrary.swift in Sources */,
 				5F39B10CBB7DEC8ED4DE7D0E4C11F1F1 /* secp256k1.a in Sources */,
 				0CA582EC3D390D2A502AD7FDAB95BC3C /* wally-core.a in Sources */,
 			);
