@@ -27,7 +27,6 @@
 #import "mnemonic.h"
 #import "properties.h"
 #import "run_tests.h"
-#import "sha3.h"
 #import "transaction.h"
 #import "transaction_builder.h"
 

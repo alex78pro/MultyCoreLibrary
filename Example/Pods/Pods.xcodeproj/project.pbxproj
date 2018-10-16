@@ -31,7 +31,6 @@
 		A2FA52B2BDDF5AC9FF62A8B0D72447C3 /* ethereum.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF2BFE9F429E5CF18B2D5E29F5C8BA7 /* ethereum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4086CF01272854F7BCF5CBDCB8E300C /* bitcoin.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDE4CA489B899AD09CF09600CB31E39 /* bitcoin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE5F8CD5F731BC5C604D4F2E297D6609 /* Pods-Multy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C505F3551FEB507C55A5006AA3A8754E /* Pods-Multy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B23987B0431F2E9AD12AEF66238760D5 /* sha3.h in Headers */ = {isa = PBXBuildFile; fileRef = D5A9C8269CF514ADB6AD0960404C59D9 /* sha3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B827776191C2D5E94E33E8DE20A6B3CC /* multy_test.dylib in Sources */ = {isa = PBXBuildFile; fileRef = F5CA6F6E9D13B575784077EAE633D62B /* multy_test.dylib */; };
 		BBAEABDE83F6875DB947DDFDE42EB449 /* mini-gmp.a in Sources */ = {isa = PBXBuildFile; fileRef = 589A52103D6800F3AA75DD94D96ADFF0 /* mini-gmp.a */; };
 		BFFE9C36D91DF395592F5BB819E1F300 /* mnemonic.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFE1D7FFEDC1AB6E13688591BCF9626 /* mnemonic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -115,7 +114,6 @@
 		C0B1EFA12C8F4ACB4D73B3ABD183E52D /* Pods-MultyCoreLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultyCoreLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		C505F3551FEB507C55A5006AA3A8754E /* Pods-Multy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Multy-umbrella.h"; sourceTree = "<group>"; };
 		D37118C8343CF87A6D406F8E5E103046 /* Pods-MultyCoreLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultyCoreLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5A9C8269CF514ADB6AD0960404C59D9 /* sha3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sha3.h; sourceTree = "<group>"; };
 		D85C71027072EC79ECD71692380E0114 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MultyCoreLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D8F4500F4A2901C32E5424C24E1E4D92 /* Pods_MultyCoreLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultyCoreLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFE1D7FFEDC1AB6E13688591BCF9626 /* mnemonic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mnemonic.h; sourceTree = "<group>"; };
@@ -276,7 +274,6 @@
 				DAFE1D7FFEDC1AB6E13688591BCF9626 /* mnemonic.h */,
 				8B5BCAAAD43B33F34C4FDE608F32A3BD /* properties.h */,
 				0CC69A144F05B0E455B7B3DA25034DE3 /* run_tests.h */,
-				D5A9C8269CF514ADB6AD0960404C59D9 /* sha3.h */,
 				F7FC7E28EE545D9B83F6A5F7890151A2 /* transaction.h */,
 				1228DAF314DE5378F87463E2446554EB /* transaction_builder.h */,
 			);
@@ -403,7 +400,6 @@
 				AE5F8CD5F731BC5C604D4F2E297D6609 /* Pods-Multy-umbrella.h in Headers */,
 				25DB642A2172395BF18B39A4039C86B8 /* properties.h in Headers */,
 				F890969502EFC5C2E9175B2CA10F00B9 /* run_tests.h in Headers */,
-				B23987B0431F2E9AD12AEF66238760D5 /* sha3.h in Headers */,
 				8EB568ABD8625964D6D8574E23D4E217 /* transaction.h in Headers */,
 				C31C005E74F66111288B0B3F8C59D6A4 /* transaction_builder.h in Headers */,
 			);
