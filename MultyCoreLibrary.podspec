@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MultyCoreLibrary'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A Swift wrapper for the Multy-Core library'
 
   s.description      = <<-DESC
