@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		01A60115252D18CCD788C43D /* Pods_MultyCoreLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21A969412174D9D9F06FD88 /* Pods_MultyCoreLibrary_Tests.framework */; };
+		44E39EA221773D520095A42A /* libkeccak-tiny.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 44E39E9B21773D230095A42A /* libkeccak-tiny.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		44E39EA321773D520095A42A /* liblibwally-core.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 44E39E9721773D230095A42A /* liblibwally-core.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		44E39EA421773D520095A42A /* libmulty_core.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 44E39E9A21773D230095A42A /* libmulty_core.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		44E39EA521773D520095A42A /* libmulty_test.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 44E39E9821773D230095A42A /* libmulty_test.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		44E39EA621773D520095A42A /* libsecp256k1.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 44E39E9921773D230095A42A /* libsecp256k1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -27,8 +32,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		44E39EA721773D520095A42A /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44E39EA221773D520095A42A /* libkeccak-tiny.dylib in Embed Libraries */,
+				44E39EA621773D520095A42A /* libsecp256k1.dylib in Embed Libraries */,
+				44E39EA321773D520095A42A /* liblibwally-core.dylib in Embed Libraries */,
+				44E39EA521773D520095A42A /* libmulty_test.dylib in Embed Libraries */,
+				44E39EA421773D520095A42A /* libmulty_core.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3E08DF54340919C9222C7707 /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultyCoreLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultyCoreLibrary_Tests/Pods-MultyCoreLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44E39E9721773D230095A42A /* liblibwally-core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "liblibwally-core.dylib"; path = "Pods/liblibwally-core.dylib"; sourceTree = "<group>"; };
+		44E39E9821773D230095A42A /* libmulty_test.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmulty_test.dylib; path = Pods/libmulty_test.dylib; sourceTree = "<group>"; };
+		44E39E9921773D230095A42A /* libsecp256k1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsecp256k1.dylib; path = Pods/libsecp256k1.dylib; sourceTree = "<group>"; };
+		44E39E9A21773D230095A42A /* libmulty_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmulty_core.dylib; path = Pods/libmulty_core.dylib; sourceTree = "<group>"; };
+		44E39E9B21773D230095A42A /* libkeccak-tiny.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkeccak-tiny.dylib"; path = "Pods/libkeccak-tiny.dylib"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MultyCoreLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultyCoreLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +170,11 @@
 		BD0D570472242F63C0185A32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44E39E9B21773D230095A42A /* libkeccak-tiny.dylib */,
+				44E39E9721773D230095A42A /* liblibwally-core.dylib */,
+				44E39E9A21773D230095A42A /* libmulty_core.dylib */,
+				44E39E9821773D230095A42A /* libmulty_test.dylib */,
+				44E39E9921773D230095A42A /* libsecp256k1.dylib */,
 				BAF9641B1F63E2583BCD75CC /* Pods_MultyCoreLibrary_Example.framework */,
 				C21A969412174D9D9F06FD88 /* Pods_MultyCoreLibrary_Tests.framework */,
 			);
@@ -171,6 +204,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				3235C8A948B58AD799858B2B /* [CP] Embed Pods Frameworks */,
+				44E39EA721773D520095A42A /* Embed Libraries */,
 			);
 			buildRules = (
 			);
