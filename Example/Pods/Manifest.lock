@@ -1,5 +1,5 @@
 PODS:
-  - MultyCoreLibrary (0.1.10)
+  - MultyCoreLibrary (0.1.11)
 
 DEPENDENCIES:
   - MultyCoreLibrary (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MultyCoreLibrary: 1f296e845aa123c9c0f7f47b765f9164a31271f4
+  MultyCoreLibrary: 737e8551d2845231ce12ded14c3d8f7b897f0e22
 
 PODFILE CHECKSUM: 4826a21c3de02c5fba705ad559ad4b36a487ff72
 
