@@ -581,12 +581,13 @@
 			};
 			name = Release;
 		};
-		29C080F77350CBDDA29545373F8AF97B /* Release */ = {
+		3D217AAC5C5ECC66AB9AFF2794DBC1E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0CDC27CD65BFDA63F95B1DA4A47558B /* Pods-MultyCoreLibrary_Tests.release.xcconfig */;
+			baseConfigurationReference = 90B4232B21AEC7FC834CFD61087AF39B /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = (
+					arm64,
 					armv7,
 					armv7s,
 				);
@@ -614,11 +615,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -741,12 +741,13 @@
 			};
 			name = Release;
 		};
-		AA50B62C5351486660C40A1F808D32A3 /* Debug */ = {
+		738442EEF71CAAAE18F1583365A367F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B4232B21AEC7FC834CFD61087AF39B /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */;
+			baseConfigurationReference = B0CDC27CD65BFDA63F95B1DA4A47558B /* Pods-MultyCoreLibrary_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = (
+					arm64,
 					armv7,
 					armv7s,
 				);
@@ -774,10 +775,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C3F87CF1AC57A091CEE8CA8DA1324DD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -920,8 +922,8 @@
 		9F4C8860D8BFEB837184B7EDF2C4A7D2 /* Build configuration list for PBXNativeTarget "Pods-MultyCoreLibrary_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA50B62C5351486660C40A1F808D32A3 /* Debug */,
-				29C080F77350CBDDA29545373F8AF97B /* Release */,
+				3D217AAC5C5ECC66AB9AFF2794DBC1E4 /* Debug */,
+				738442EEF71CAAAE18F1583365A367F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

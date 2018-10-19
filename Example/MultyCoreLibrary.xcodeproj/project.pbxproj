@@ -557,6 +557,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E08DF54340919C9222C7707 /* Pods-MultyCoreLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
 				DEVELOPMENT_TEAM = 7SW78L9W6E;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -572,7 +577,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultyCoreLibrary_Example.app/MultyCoreLibrary_Example";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -580,6 +585,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B6733AFEE73263E66002D7B /* Pods-MultyCoreLibrary_Tests.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
 				DEVELOPMENT_TEAM = 7SW78L9W6E;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -590,7 +600,7 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultyCoreLibrary_Example.app/MultyCoreLibrary_Example";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
