@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "Pods-Multy-umbrella.h"
 #import "account.h"
 #import "api.h"
 #import "big_int.h"
